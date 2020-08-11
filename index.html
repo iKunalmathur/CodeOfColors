@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COↃ</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<script>
+    function ColorBox(code) {
+        document.getElementById(code).innerHTML = `<div class="color-box" style="background-color:`+code+`">
+            <a class="code-text" href="#" onclick="event.preventDefault();">`+code+`</a>
+            <a class="copy-btn" href="#" onclick="event.preventDefault();copyToClipboard('`+code+`');"><span>Pick</span></a>
+        </div>`;  
+    }
+</script>
+<body>
+    <header>
+        <nav class="nav-bar" id="nav-bar">
+            <div class="nav-bar-left">
+                <div class="brand">
+                    <p class="name"> Code Of Colors</p>
+                </div>
+            </div>
+            <div class="nav-bar-right"></div>
+        </nav>
+    </header>
+    <section class="main-section" id="main-section">
+        <div class="col" id="#0099e5">
+            <script>ColorBox('#0099e5')</script>
+        </div>
+        <div class="col" id="#00a98f">
+            <script>ColorBox('#00a98f')</script>
+        </div>
+        <div class="col" id="#371777"> 
+            <script>ColorBox('#371777')</script>
+        </div>
+        <div class="col" id="#fbb034">
+            <script>ColorBox('#fbb034')</script>
+        </div>
+        <div class="col" id="#00112c">
+            <script>ColorBox('#00112c')</script>
+        </div>
+        <div class="col" id="#00a4e4">
+            <script>ColorBox('#00a4e4')</script>
+        </div>
+        <div class="col" id="#8a7967">
+            <script>ColorBox('#8a7967')</script>
+        </div>
+        <div class="col" id="#0abf53">
+            <script>ColorBox('#0abf53')</script>
+        </div>
+        <div class="col" id="#6a737b">
+            <script>ColorBox('#6a737b')</script>
+        </div>
+        <div class="col" id="#fd5c63">
+            <script>ColorBox('#fd5c63')</script>
+        </div>
+        <div class="col" id="#f4b400">
+            <script>ColorBox('#f4b400')</script>
+        </div>
+        <div class="col" id="#4285f4">
+            <script>ColorBox('#4285f4')</script>
+        </div>
+        <div class="col" id="#34a853">
+            <script>ColorBox('#34a853')</script>
+        </div>
+        <div class="col" id="#fbbc05">
+            <script>ColorBox('#fbbc05')</script>
+        </div>
+        <div class="col" id="#ea4335">
+            <script>ColorBox('#ea4335')</script>
+        </div>
+        <div class="col" id="#52b043">
+            <script>ColorBox('#52b043')</script>
+        </div>
+        <div class="col" id="#ff9900">
+            <script>ColorBox('#ff9900')</script>
+        </div>
+        <div class="col" id="#0dd3ff">
+            <script>ColorBox('#0dd3ff')</script>
+        </div>
+        <div class="col" id="#7fbb00">
+            <script>ColorBox('#7fbb00')</script>
+        </div>
+        <div class="col" id="#788cb6">
+            <script>ColorBox('#788cb6')</script>
+        </div>
+        <div class="col" id="#fff200">
+            <script>ColorBox('#fff200')</script>
+        </div>
+        <div class="col" id="#de0f17">
+            <script>ColorBox('#de0f17')</script>
+        </div>
+        <div class="col" id="#ea1d5d">
+            <script>ColorBox('#ea1d5d')</script>
+        </div>
+        <div class="col" id="#3b5998">
+            <script>ColorBox('#3b5998')</script>
+        </div>
+        <div class="col" id="#fffefc">
+            <script>ColorBox('#fffefc')</script>
+        </div>
+        <div class="col" id="#880000">
+            <script>ColorBox('#880000')</script>
+        </div>
+        <div class="col" id="#5d5d5d">
+            <script>ColorBox('#5d5d5d')</script>
+        </div>
+        <div class="col" id="#9e9e9e">
+            <script>ColorBox('#9e9e9e')</script>
+        </div>
+        <div class="col" id="#dedede">
+            <script>ColorBox('#dedede')</script>
+        </div>
+    </section>
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>

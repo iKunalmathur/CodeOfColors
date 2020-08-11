@@ -1,0 +1,89 @@
+body {
+  margin: 0em;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-bar .name {
+  color: #000000;
+  margin: 0em;
+  padding: .5em;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar .name {
+    /* For mobile phones: */
+    text-align: center;
+  }
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: .3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-section .color-box {
+  background-color: black;
+  width: 20.9em;
+  height: 15em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.main-section .color-box .copy-btn {
+  color: white;
+  text-decoration: none;
+  display: none;
+  border: white 1px solid;
+  border-radius: 2px;
+}
+
+.main-section .color-box .copy-btn span {
+  margin: 1em;
+}
+
+.main-section .color-box .code-text {
+  color: white;
+  text-decoration: none;
+}
+
+.main-section .color-box:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.main-section .color-box:hover .copy-btn {
+  display: inline;
+}
+
+.main-section .color-box:hover .code-text {
+  display: none;
+}
+
+.main-section .copy-btn:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+/*# sourceMappingURL=main.css.map */
